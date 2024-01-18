@@ -1,0 +1,12 @@
+.Card{
+margin-left:450px;
+margin-right:450px;
+flex-direction: row; 
+}
+.Box{
+    width: 150px;
+    height:150px;
+}
+body{
+    background-color: rgb(13, 2, 27)
+}

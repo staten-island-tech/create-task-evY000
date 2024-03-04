@@ -1,12 +1,24 @@
 .Card{
-margin-left:450px;
-margin-right:450px;
-flex-direction: row; 
+    display: grid;
+  grid-template-columns: repeat(3, 0fr);
+
+
 }
-.Box{
+.button{
     width: 150px;
     height:150px;
+    background-color: whitesmoke;
+    
 }
 body{
-    background-color: rgb(13, 2, 27)
+    background-color: rgb(13, 2, 27);
+}
+
+h1{
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h2{
+    position: absolute;
 }
